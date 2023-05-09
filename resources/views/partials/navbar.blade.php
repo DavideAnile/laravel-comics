@@ -12,7 +12,7 @@
         </div>
         <ul>
             @foreach($links as $singleLink)
-                <li>{{$singleLink}}</li>
+                <li><a href="{{route('bonus')}}">{{$singleLink}}</a></li>
             @endforeach
             
         </ul>
@@ -22,7 +22,7 @@
     </div>
     <div class="jumbo-container">
         <img src="{{ Vite::asset('resources/img/jumbotron.jpg')}}" alt="Jumbotron image">
-        <div class="series">Current series</div>
+        
     </div>
 
     
