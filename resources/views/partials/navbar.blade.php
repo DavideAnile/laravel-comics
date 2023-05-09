@@ -17,6 +17,14 @@
             <input type="text" placeholder="Cerca">
         </div>
     </div>
+    <div class="jumbo-container">
+        <img src="{{ Vite::asset('resources/img/jumbotron.jpg')}}" alt="Jumbotron image">
+        <div class="series">Current series</div>
+    </div>
+
+    
+    
+</nav>
+    
         
         
-  </nav>

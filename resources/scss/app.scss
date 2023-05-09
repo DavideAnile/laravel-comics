@@ -5,7 +5,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100px;
+    
     background-color: white;
     color: black;
 
@@ -26,7 +26,7 @@ nav{
         display: flex;
         justify-content: space-between;
         width: 80%;
-        height: 100%;
+        height: 100px;
         margin: 0 auto;
 
         .img-container{
@@ -54,7 +54,7 @@ nav{
             cursor: pointer;
             text-transform: uppercase;
             
-            &.active{
+            &:hover{
                 color: blue;
                 border-bottom: 4px solid blue;
                 }
@@ -72,9 +72,70 @@ nav{
                 text-align: right;
                 border: none;
                 border-bottom: 2px solid blue;
+                outline: none;
             }
         }
 
     }   
+    
+    .jumbo-container{
+        position: relative;
+        width: 100%;
+        height: 400px;
         
+    
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    
+        .series{
+            
+            position: absolute;
+            bottom: -20px;
+            left: 220px;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: #0282f9;
+            color: white;
+            padding: 2px 20px;
+            text-transform: uppercase;
+        }
     }
+}
+
+main{
+
+    .card-container{
+        width: calc(100% / 6 - (40px / 6 * 5));
+        
+        
+    
+        
+        
+        
+        .thumb-container{
+            width: 100%;
+            height: 200px;
+            cursor: pointer;
+            
+    
+            img{
+               
+               width: 100%;
+               height: 100%; 
+               object-fit: cover;
+               object-position: top;
+               
+            }
+        }
+    
+        .cardTitle{
+            padding: 15px 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
