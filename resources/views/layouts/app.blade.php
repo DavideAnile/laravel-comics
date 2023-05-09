@@ -23,6 +23,10 @@
 
         @yield ('blue_section')
 
+        @include ('partials/referencies')
+
+        @include ('partials/footer')
+
 
     
     
