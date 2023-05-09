@@ -1,0 +1,80 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    color: black;
+
+   .up-nav{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    background-color: blue;
+    width: 100%;
+    color: white;
+    padding-right: 200px;
+    font-weight: bold;
+   }
+
+
+    .my-container{
+
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+
+        .img-container{
+            width: 100px;
+            height: 100%;
+            padding: 20px;
+    
+            img{
+                height: 100%;
+            }
+        }
+    
+        ul{
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-around;
+            height: 100%;
+           li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            font-weight: bold;
+            border-bottom: 4px solid transparent;
+            cursor: pointer;
+            text-transform: uppercase;
+            
+            &.active{
+                color: blue;
+                border-bottom: 4px solid blue;
+                }
+                
+           }    
+        }
+
+        .input-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+            input{
+                text-align: right;
+                border: none;
+                border-bottom: 2px solid blue;
+            }
+        }
+
+    }   
+        
+    }
