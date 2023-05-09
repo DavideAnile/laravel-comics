@@ -20,7 +20,27 @@
     <div class="btn"><button>LOAD MORE</button></div>
     </div>
 
+</main>
+@endsection
     
 
-</main>
+
+
+@section ('blue_section')
+<div class="blue-section">
+
+    
+        <div class="my-container container">
+            @foreach($helpCards as $singleHelpCard)
+            <div  class="link-container">
+                <div class="img-container">
+                    <img src="{{Vite::asset('/resources/img/' . $singleHelpCard['img'])}}" alt="non lo so">
+                </div>
+                <div>{{$singleHelpCard['title']}}</div>
+                
+            </div>
+            @endforeach
+        
+    </div>
+</div>
 @endsection

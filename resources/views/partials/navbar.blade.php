@@ -1,9 +1,12 @@
 <nav>
     <div class="up-nav">
-        <div>DC POWERED BY VISA</div>
-        <div>ADDITIONAL DC SITES</div>
+        
+        <div class="up-nav-inner container">
+            <div>DC POWERED BY VISA</div>
+            <div>ADDITIONAL DC SITES</div>
+        </div>
     </div>
-    <div class="my-container">
+    <div class="my-container container">
         <div class="img-container">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo DC">
         </div>

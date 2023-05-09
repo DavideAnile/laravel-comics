@@ -19,10 +19,12 @@
     
         @include ('partials/navbar') 
     
+        @yield ('content')
+
+        @yield ('blue_section')
 
 
     
-        @yield ('content')
     
         
     
