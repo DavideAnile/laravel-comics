@@ -1,6 +1,6 @@
-@extends ('layouts/bonus_layout')
+@extends ('layouts/app')
 
-@section ('bonus_content')
+@section ('content')
 <div class="bonus-section">
     <div class="banner">
         <div class="inner-banner container"><img src="{{$comics[3]['thumb']}}" alt=""></div>

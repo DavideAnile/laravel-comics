@@ -27,13 +27,12 @@
 
         @include ('partials/footer')
 
+    </body>
+    
+</html>
 
     
     
         
     
     
-
-</body>
-
-</html>

@@ -39,9 +39,9 @@
                     <img src="{{Vite::asset('/resources/img/' . $singleHelpCard['img'])}}" alt="non lo so">
                 </div>
                 <div>{{$singleHelpCard['title']}}</div>
-                
             </div>
             @endforeach
+                
         
     </div>
 </div>
